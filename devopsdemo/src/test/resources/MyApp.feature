@@ -34,6 +34,7 @@ Feature: Test the Fib, Prime and Sorting of numbers
    	Then Click on Generate Prime numbers
    	Then I get output for prime "[1, 2, 3, 5, 7, 11, 13, 17, 19]"
    	
+   	
    	Scenario: Test for negative input for Primes
    		When I give input for Prime Num "-2"
    		Then Click on Generate Prime numbers
