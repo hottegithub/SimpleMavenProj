@@ -115,8 +115,8 @@ public class BusinessLogicProcessor {
 			int inumOfFibSeries = Integer.parseInt(str);
 			strOfFibSeries = Arrays.toString(generateFibSeries(inumOfFibSeries));
 		} else {
-			strOfFibSeries = "Enter a valid number"; // this is good logic
-			//strOfFibSeries = "Enter"; // - this is bad logic
+			//strOfFibSeries = "Enter a valid number"; // this is good logic
+			strOfFibSeries = "Enter"; // - this is bad logic
 		}
 		return strOfFibSeries;
 	}
