@@ -81,8 +81,8 @@ public class BusinessLogicProcessor {
 		boolean isPrime = true;
 		for (int counter = 2; counter < i; counter++) {
 			if (i % counter == 0) {
-				isPrime = false; // this is the CORRECT logic uncomment this to pass the test case
-				//isPrime = true; // this is the WRONG logic uncomment this to fail the test case
+				//isPrime = false; // this is the CORRECT logic uncomment this to pass the test case
+				isPrime = true; // this is the WRONG logic uncomment this to fail the test case
 				return isPrime;
 			}
 		}
@@ -115,8 +115,8 @@ public class BusinessLogicProcessor {
 			int inumOfFibSeries = Integer.parseInt(str);
 			strOfFibSeries = Arrays.toString(generateFibSeries(inumOfFibSeries));
 		} else {
-			//strOfFibSeries = "Enter a valid number"; // this is good logic
-			strOfFibSeries = "Enter"; // - this is bad logic
+			strOfFibSeries = "Enter a valid number"; // this is good logic
+			//strOfFibSeries = "Enter"; // - this is bad logic
 		}
 		return strOfFibSeries;
 	}
