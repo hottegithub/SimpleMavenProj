@@ -14,7 +14,6 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import com.myapp.bl.PropertyLoader;
 
-import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -129,7 +128,7 @@ public class StepDefinition {
 		}
 	}
 
-	@Then("^I get \"([^\"]*)\"$")
+	@Then("^I get footer \"([^\"]*)\"$")
 	public void i_get(String expectedMsg) {
 		String actualMsg = driver.findElement(By.xpath("/html/body/form/table/thead[2]/tr/td[3]/strong")).getText();
 		assertEquals(expectedMsg, actualMsg);

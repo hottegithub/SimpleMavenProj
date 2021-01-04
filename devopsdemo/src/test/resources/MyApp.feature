@@ -51,7 +51,7 @@ Feature: Test the Fib, Prime and Sorting of numbers
     	Then I get in words "nine thousand nine hundred and ninty nine crore ninty nine lakh ninty nine thousand nine hundred and ninty nine"
     	
     Scenario: Test for nice day message
-    	Then I get "Have a Nice Day"	
+    	Then I get footer "Have a Nice Day" 	
     	
     Scenario: Close browser
     	Then Close Browser
