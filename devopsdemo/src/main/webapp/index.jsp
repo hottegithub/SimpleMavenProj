@@ -149,7 +149,7 @@
 						
 					<td style="width: 150px; height: 103px;"><span
 						style="line-height: 35px;"><input type="Submit"
-							value="Generate the numericals in words" /> </span></td>
+							value="Generate numerical in words" /> </span></td>
 					<td style="width: 210px; height: 103px; text-align: left;">
 						<%
 						Object obj3 = request.getSession().getAttribute("numInWords");
