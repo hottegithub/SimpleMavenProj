@@ -5,8 +5,6 @@ import java.util.Arrays;
 public class BusinessLogicProcessor {
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
 	}
 
 	public boolean isEven(int num) {
