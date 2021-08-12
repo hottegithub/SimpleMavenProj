@@ -8,7 +8,7 @@ public class BusinessLogicProcessor {
 	}
 
 	public boolean isEven(int num) {
-		// TODO Auto-generated method stub
+		
 		if (num % 2 == 0) {
 			return true;
 		} else {
