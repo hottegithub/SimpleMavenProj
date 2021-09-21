@@ -128,11 +128,12 @@ public class BusinessLogicProcessor {
 		// System.out.println("unsorted array before sorting : " + Arrays.toString(arr));
 
 		
-		 ///////////////////////////////// ----- Selection sort algorithm starts
+		/*
+		///////////////////////////////// ----- Selection sort algorithm starts
 		  
 		 // Outer loop - need n-1 iteration to sort n elements 
 		 
-		 for(int i=0; i<arr.length-1; i++){           /// this line is the correct logic 
+		for(int i=0; i<arr.length-1; i++){           /// this line is the correct logic 
 		 // for(int i=1; i<arr.length-1; i++) {        /// uncomment this line to introduce a logical bug
 		 
 		 		//Inner loop to perform comparision and swapping between adjacent numbers 
@@ -148,9 +149,9 @@ public class BusinessLogicProcessor {
 		  
 		 } 
 		 ///////////////////////////////////// ----- Selection sort algorithm ends
-		 
+		 */
 		
-		/*
+		
 		////////////////////////////////////////////// Bubble sort logic starts
 		 
 		int n = arr.length;
@@ -165,7 +166,7 @@ public class BusinessLogicProcessor {
 		}
 		//////////////////////////////////////////////// Bubble sort logic ends
 		
-		*/
+		
 		// System.out.println("Sorted array >>"+ Arrays.toString(arr));
 		return arr;
 	}
