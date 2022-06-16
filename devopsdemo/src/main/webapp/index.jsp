@@ -143,7 +143,7 @@
 			
 			<tbody>
 				<tr style="height: 103px;">
-					<td style="width: 200px; height: 103px;"><strong>Give number in numericals</strong></td>
+					<td style="width: 200px; height: 103px;"><strong>Give number in numerical</strong></td>
 					<td style="width: 10px; height: 103px;">
 						<input name="numericals" type="text" />
 						
