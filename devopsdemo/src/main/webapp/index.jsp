@@ -53,7 +53,7 @@
 					</td>
 					<td style="width: 150px; height: 103px;"><span
 						style="line-height: 35px;"><input type="Submit"
-							value="Generate Fib Series" /> </span></td>
+							value="Generate Fibonacii Series" /> </span></td>
 					<td style="width: 210px; height: 103px; text-align: left;">
 						<%
 							Object obj = request. getSession().getAttribute("Fibseries");
