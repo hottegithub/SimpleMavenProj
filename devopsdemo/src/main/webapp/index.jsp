@@ -82,7 +82,7 @@
 					</td>
 					<td style="width: 150px; height: 103px;"><span
 						style="line-height: 35px;"><input type="Submit"
-							value="Generate Prime number" /> </span></td>
+							value="Generate Prime numbers" /> </span></td>
 					<td style="width: 210px; height: 103px; text-align: left;">
 						<%
 							Object obj1 = request.getSession().getAttribute("PrimeNumbers");
