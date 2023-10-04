@@ -21,7 +21,7 @@ public class MyTogglzConfiguration implements TogglzConfig {
 
     public StateRepository getStateRepository() {
     	System.out.println(" *********8 88888 8  In getStateRepository() 999999 ");
-    	return new FileBasedStateRepository(new File("D:\\NewGitRepo\\SimpleMavenProj\\devopsdemo\\src\\main\\resources\\features.properties"));
+    	return new FileBasedStateRepository(new File("C:\\EclipseWorkspace\\SimpleMavenProj\\devopsdemo\\src\\main\\resources\\features.properties"));
     }
 
     @Override
