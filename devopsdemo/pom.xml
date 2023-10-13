@@ -119,14 +119,14 @@
 			</plugin>
 
 			<!-- Plug in to push to the Docker Hub STARTS-->
-<!--
+
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>exec-maven-plugin</artifactId>
 				<version>1.6.0</version>
 				<executions>
 					
-					 Remove existing image from local repo 
+<!--					 Remove existing image from local repo --> 
 					
 					<execution>
 						<id>docker-clean</id>
@@ -136,7 +136,7 @@
 						</goals>
 						<configuration>
 							<executable>docker</executable>
-							<workingDirectory>\JenkinsWorkingFolder\devopsdemo</workingDirectory>
+							<workingDirectory>\JenkinsWorkingFolder</workingDirectory>
 							<arguments>
 								<argument>rmi</argument>
 								<argument>mahendrahotte/mytomcat9.0:latest</argument>
@@ -144,9 +144,9 @@
 						</configuration>
 					</execution>
 					 
-      Create new docker image using Dockerfile which must be present in current
+<!--     Create new docker image using Dockerfile which must be present in current
 					working directory.
-      Tag the image using maven project version information.
+      Tag the image using maven project version information. -->
 					
 					<execution>
 						<id>docker-build</id>
@@ -156,7 +156,7 @@
 						</goals>
 						<configuration>
 							<executable>docker</executable>
-							<workingDirectory>\JenkinsWorkingFolder\devopsdemo</workingDirectory>
+							<workingDirectory>\JenkinsWorkingFolder</workingDirectory>
 							<arguments>
 								<argument>build</argument>
 								<argument>-t</argument>
@@ -166,7 +166,7 @@
 						</configuration>
 					</execution>
 
-					 Login and Push the image to a docker repo. 
+<!--					 Login and Push the image to a docker repo. --> 
 
 					<execution>
 						<id>docker-login</id>
@@ -176,7 +176,7 @@
 						</goals>
 						<configuration>
 							<executable>docker</executable>
-							<workingDirectory>\JenkinsWorkingFolder\devopsdemo</workingDirectory>
+							<workingDirectory>\JenkinsWorkingFolder</workingDirectory>
 							<arguments>
 								<argument>login</argument>
 								<argument>-u</argument>
@@ -195,7 +195,7 @@
 						</goals>
 						<configuration>
 							<executable>docker</executable>
-							<workingDirectory>\JenkinsWorkingFolder\devopsdemo</workingDirectory>
+							<workingDirectory>\JenkinsWorkingFolder</workingDirectory>
 							<arguments>
 								<argument>push</argument>
 								<argument>mahendrahotte/mytomcat9.0:latest</argument>
@@ -204,7 +204,7 @@
 					</execution>
 				</executions>
 			</plugin>
--->
+
 			<!-- Plug in to push to the Docker Hub ENDS-->
 
 			<!-- Mahendra Trial to try war creation even though test fails -->
