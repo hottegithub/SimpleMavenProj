@@ -119,13 +119,13 @@
 			</plugin>
 
 			<!-- Plug in to push to the Docker Hub STARTS-->
-
+<!--
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>exec-maven-plugin</artifactId>
 				<version>1.6.0</version>
 				<executions>
-					
+-->					
 <!--					 Remove existing image from local repo --> 
 <!--					
 					<execution>
@@ -136,7 +136,7 @@
 						</goals>
 						<configuration>
 							<executable>docker</executable>
-							<workingDirectory>\JenkinsWorkingFolder</workingDirectory>
+							<workingDirectory>.</workingDirectory>
 							<arguments>
 								<argument>rmi</argument>
 								<argument>mahendrahotte/mytomcat9.0:latest</argument>
@@ -147,7 +147,7 @@
 <!--     Create new docker image using Dockerfile which must be present in current
 					working directory.
       Tag the image using maven project version information. -->
-					
+<!--					
 					<execution>
 						<id>docker-build</id>
 						<phase>install</phase>
@@ -165,9 +165,9 @@
 							</arguments>
 						</configuration>
 					</execution>
-
+-->
 <!--					 Login and Push the image to a docker repo. --> 
-
+<!--
 					<execution>
 						<id>docker-login</id>
 						<phase>deploy</phase>
@@ -204,7 +204,7 @@
 					</execution>
 				</executions>
 			</plugin>
-
+-->
 			<!-- Plug in to push to the Docker Hub ENDS-->
 
 			<!-- Mahendra Trial to try war creation even though test fails -->
