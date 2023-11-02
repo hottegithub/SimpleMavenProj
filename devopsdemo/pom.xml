@@ -213,5 +213,14 @@
 		</plugins>
 	</build>
 
+<distributionManagement>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>mahendrahotte</id>
+      <name>Devops Tutorial</name>
+      <url>https://registry.hub.docker.com/v2</url>
+      <layout>default</layout>
+    </repository>
+</distributionManagement>
 
 </project>
