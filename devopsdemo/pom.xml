@@ -218,7 +218,7 @@
       <uniqueVersion>false</uniqueVersion>
       <id>mahendrahotte</id>
       <name>Devops Tutorial</name>
-      <url>https://index.docker.io/v2/</url>
+      <url>https://registry.hub.docker.com/v2</url>
       <layout>default</layout>
     </repository>
 </distributionManagement>
