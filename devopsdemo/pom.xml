@@ -24,43 +24,44 @@
 			<version>3.1.0</version>
 			<scope>provided</scope>
 		</dependency>
-<!--
+
 <dependency>
     <groupId>io.cucumber</groupId>
     <artifactId>cucumber-java</artifactId>
     <version>7.14.1</version>
     <scope>test</scope>
 </dependency>
--->
-		<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit -->
 
+		<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit -->
+<!--
 <dependency>
     <groupId>info.cukes</groupId>
     <artifactId>cucumber-junit</artifactId>
     <version>1.2.6</version>
     <type>pom</type>
 </dependency>
-
+-->
 		<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-java -->
 
+<!--
 <dependency>
     <groupId>info.cukes</groupId>
     <artifactId>cucumber-java</artifactId>
     <version>1.2.6</version>
     <type>pom</type>
 </dependency>
-
+-->
 
 
 <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-core -->
-
+<!--
 <dependency>
     <groupId>info.cukes</groupId>
     <artifactId>cucumber-core</artifactId>
     <version>1.2.6</version>
     <type>pom</type>
 </dependency>
-
+-->
 <!-- https://mvnrepository.com/artifact/info.cukes/gherkin -->
 <!--
 <dependency>
