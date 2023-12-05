@@ -32,6 +32,17 @@
     <scope>test</scope>
 </dependency>
 
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>7.14.1</version>
+    <scope>test</scope>
+</dependency>
+
+
+
 		<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit -->
 <!--
 <dependency>
@@ -266,6 +277,8 @@
 			<!-- Plug in to push to the Docker Hub ENDS-->
 
 			<!-- Mahendra Trial to try war creation even though test fails -->
+
+
 
 
 		</plugins>
