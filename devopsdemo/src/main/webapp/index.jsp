@@ -46,7 +46,7 @@
 			
 			<tbody>
 				<tr style="height: 103px;">
-					<td style="width: 200px; height: 103px;"><strong>Number	of Fib elements</strong></td>
+					<td style="width: 200px; height: 103px;"><strong>Number	of Fib element</strong></td>
 					<td style="width: 10px; height: 103px;">
 						<input name="numOfFibElements" type="text" />
 						<!--  <input name="Action" type="hidden" value="GenerateFibSeries" />  -->
